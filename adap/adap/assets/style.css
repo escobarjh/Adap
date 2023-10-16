@@ -135,6 +135,11 @@ body {
     min-width: calc((100% / 3) - 4rem);
   }
 }
+@media (max-width: 940px) {
+  .textao {
+    flex-direction: column;
+  }
+}
 .slider__image {
   display: block;
   width: 100%;
